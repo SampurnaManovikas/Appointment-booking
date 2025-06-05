@@ -15,7 +15,8 @@ const TherapistProfile: React.FC = () => {
         <div className="absolute bottom-0 left-0 w-full p-6 flex items-end">
           <div className="w-32 h-32 rounded-full border-4 border-white overflow-hidden mr-6">
             <img 
-              src="https://images.pexels.com/photos/5490276/pexels-photo-5490276.jpeg"
+              //src="https://images.pexels.com/photos/5490276/pexels-photo-5490276.jpeg"
+               src={'/src/components/Images/pic1.jpg'}
               alt="Dr. Kiran S. Sawekar portrait"
               className="w-full h-full object-cover"
             />
