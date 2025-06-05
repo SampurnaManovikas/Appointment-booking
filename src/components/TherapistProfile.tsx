@@ -18,7 +18,7 @@ const TherapistProfile: React.FC = () => {
             <img 
               //src="https://images.pexels.com/photos/5490276/pexels-photo-5490276.jpeg"
                src={'/src/components/Images/pic1.jpg'}
-              alt="Dr. Kiran S. Sawekar portrait"
+  
               className="w-full h-full object-cover"
             />
           </div>
