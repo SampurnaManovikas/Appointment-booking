@@ -7,8 +7,8 @@ const TherapistProfile: React.FC = () => {
     <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg">
       <div className="relative h-64 bg-gradient-to-r from-blue-400 to-blue-600">
         <img 
-         // src="https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg"
-          src={'/src/components/Images/pic1.jpg'}
+          src="https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg"
+        //  src={'/src/components/Images/pic1.jpg'}
           alt="Dr. Kiran S. Sawekar"
           className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-30"
         />
@@ -16,8 +16,8 @@ const TherapistProfile: React.FC = () => {
         <div className="absolute bottom-0 left-0 w-full p-6 flex items-end">
           <div className="w-32 h-32 rounded-full border-4 border-white overflow-hidden mr-6">
             <img 
-              //src="https://images.pexels.com/photos/5490276/pexels-photo-5490276.jpeg"
-               src={'/src/components/Images/pic1.jpg'}
+              src="https://images.pexels.com/photos/5490276/pexels-photo-5490276.jpeg"
+               //src={'/src/components/Images/pic1.jpg'}
               alt="Dr. Kiran S. Sawekar portrait"
               className="w-full h-full object-cover"
             />
