@@ -7,7 +7,8 @@ const TherapistProfile: React.FC = () => {
     <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg">
       <div className="relative h-64 bg-gradient-to-r from-blue-400 to-blue-600">
         <img 
-          src="https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg" 
+         // src="https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg"
+          src={'/src/components/Images/pic1.jpg'}
           alt="Dr. Kiran S. Sawekar"
           className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-30"
         />
